@@ -5,10 +5,10 @@ from PIL import Image
 import tensorflow as tf
 from transformers import SegformerFeatureExtractor, TFSegformerForSemanticSegmentation
 
-feature_extractor = SegformerFeatureExtractor.from_pretrained(
+feature_checkpoint = SegformerFeatureExtractor.from_pretrained(
     "nvidia/segformer-b5-finetuned-ade-640-640"
 )
-model = TFSegformerForSemanticSegmentation.from_pretrained(
+model_checkpoint = TFSegformerForSemanticSegmentation.from_pretrained(
     "nvidia/segformer-b5-finetuned-ade-640-640", from_pt=True
 )
 
@@ -170,8 +170,8 @@ def ade_palette():
 def sepia(input_img):
     input_img = Image.fromarray(input_img)
 
-    inputs = feature_extractor(images=input_img, return_tensors="tf")
-    outputs = model(**inputs)
+    inputs = feature_checkpoint(images=input_img, return_tensors="tf")
+    outputs = model_checkpoint(**inputs)
     logits = outputs.logits
 
     logits = tf.transpose(logits, [0, 2, 3, 1])

@@ -24,8 +24,8 @@ However, once the Pull Request is merged, you will no longer need to install `tr
 
 ## About the notebooks
 
-* [`notebooks/TFSegFormer_Inference.ipynb`]: Shows how to run inference with a pre-trained semantic segmentation model. 
-* [`notebooks/TFSegFormer_Finetune.ipynb`]: Shows how to fine-tune a pre-trained SegFormer model.
+* [`notebooks/TFSegFormer_Inference.ipynb`](https://github.com/deep-diver/segformer-tf-transformers/blob/main/notebooks/TFSegFormer_Inference.ipynb): Shows how to run inference with a pre-trained semantic segmentation model. 
+* [`notebooks/TFSegFormer_Finetune.ipynb`](https://github.com/deep-diver/segformer-tf-transformers/blob/main/notebooks/TFSegFormer_Finetune.ipynb): Shows how to fine-tune a pre-trained SegFormer model.
 
 ## Demo on Hugging Face Space
 

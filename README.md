@@ -34,3 +34,7 @@ Visit [this link](https://huggingface.co/spaces/chansung/segformer-tf-transforme
 ## References
 
 [1] SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers; Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M. Alvarez, Ping Luo; https://arxiv.org/abs/2105.15203 (2021).
+
+## Acknowledgements
+
+Thanks to the [ML-GDE program (ML Developer Programs team)](https://developers.google.com/programs/experts/) for providing GCP credits that we used for experimentation. 

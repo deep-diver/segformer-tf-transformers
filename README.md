@@ -9,18 +9,11 @@ higher resolutions._
 
 ## Notice
 
-As of 07/14/2022, the TensorFlow based SegFormer model is [under Pull Request](https://github.com/huggingface/transformers/pull/17910), so you should install `transformers` from source. In particular, you should checkout `tf-segformer` branch from [this repository](https://github.com/sayakpaul/transformers/tree/tf-segformer). The instruction how to install it from source is as follows:
+Since the TensorFlow variant of SegFormer hasn't been included in a `transformers` release yet you need to install it from the source:
 
 ```shell
-$ git clone https://github.com/sayakpaul/transformers
-
-$ cd transformers
-$ git checkout tf-segformer
-
-$ pip install -e . 
+pip install git+https://github.com/huggingface/transformers
 ```
-
-However, once the Pull Request is merged, you will no longer need to install `transformers` from source, and this notice will be removed.
 
 ## About the notebooks
 

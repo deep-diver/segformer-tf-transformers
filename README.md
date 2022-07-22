@@ -1,7 +1,5 @@
 # Usage of TensorFlow based SegFormer in 🤗 transformers
 
-![](https://i.ibb.co/StPyy3z/segformer-space.png)
-
 This repository demonstrates how to use TensorFlow based SegFormer model [1] in 🤗 `transformers` package with Jupyter Notebook and Gradio application which is hosted on [🤗 Spaces](https://huggingface.co/spaces/chansung/segformer-tf-transformers).
 
 SegFormer achieves good performance on various high-resolution semantic segmentation datasets along with better efficiency.
@@ -25,6 +23,8 @@ pip install git+https://github.com/huggingface/transformers
 ## Demo on Hugging Face Space
 
 Visit [this link](https://huggingface.co/spaces/chansung/segformer-tf-transformers).
+
+![](https://i.ibb.co/StPyy3z/segformer-space.png)
 
 ## References
 

@@ -19,6 +19,7 @@ pip install git+https://github.com/huggingface/transformers
 
 * [`notebooks/TFSegFormer_Inference.ipynb`](https://github.com/deep-diver/segformer-tf-transformers/blob/main/notebooks/TFSegFormer_Inference.ipynb): Shows how to run inference with a pre-trained semantic segmentation model. 
 * [`notebooks/TFSegFormer_Finetune.ipynb`](https://github.com/deep-diver/segformer-tf-transformers/blob/main/notebooks/TFSegFormer_Finetune.ipynb): Shows how to fine-tune a pre-trained SegFormer model.
+* [`notebooks/TFSegFormer_ONNX.ipynb`](https://github.com/deep-diver/segformer-tf-transformers/blob/main/notebooks/TFSegFormer_ONNX.ipynb): Shows how to convert TensorFlow based SegFormer model to ONNX format along with their timing comparison.
 
 ## Demo on Hugging Face Space
 
